@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONFEITARIA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#start"><h1>Açúcar Literário</h1></a>
+      </div>
+      <button class="menu-btn" onclick="abrirMenu()">&#9776;</button>
+      <ul id="botoesMenu">
+        <a href="#especialidades">
+          <li>
+            <p>Especialidades</p>
+          </li>
+        </a>
+        <a href="#eBooks">
+          <li>
+            <p>eBooks</p>
+          </li>
+        </a>
+        <a href="#funcionarios">
+          <li>
+            <p>Funcionários</p>
+          </li>
+        </a>
+        <a href="#galeria">
+          <li>
+            <p>Galeria</p>
+          </li>
+        </a>
+        <a href="#about">
+          <li>
+            <p>Contato</p>
+          </li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="content" id="start" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+      <div class="box1">
+        <img src="src/banner.png" alt="ambiente" />
+      </div>
+    </div>
+
+    <div class="box2" id="especialidades" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+
+      <div class="line1-box">
+        <h3>Especialidades</h3>
+        <div class="l1"></div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/564x/35/e6/58/35e6580696ffaac88b64f4e09851e247.jpg"
+          alt="BOLO"
+        />
+        <h2>Bolo de limão</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Um bolo de limão é uma experiência de frescor em forma de sobremesa,
+            com camadas de bolo macio e úmido, cada uma permeada com o sabor
+            vibrante e revigorante do limão.
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$89,90</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/564x/23/39/b0/2339b0e4bc1c48d152945529d0b168fa.jpg"
+          alt="café caramelizado"
+        />
+        <h2>Café Mocha Caramelizado</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Uma combinação divina de café espresso robusto, leite vaporizado,
+            chocolate amargo e um toque de caramelo, esta bebida é um deleite
+            indulgente para os amantes de café com um toque de doçura.
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$10,00</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/564x/9c/0c/e4/9c0ce4b51c2c1a3bd8ff2b938b5704d9.jpg"
+          alt="donut"
+        />
+        <h2>Donut Chocolate Glazed</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Um donut macio e esponjoso coberto com uma camada generosa de glacê
+            de chocolate rico e brilhante, oferecendo uma explosão de sabor de
+            chocolate em cada mordida.
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$8,90</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/564x/9b/a3/1a/9ba31a89a745b252a087b5c1373859c9.jpg"
+          alt="Chocolate Chip"
+        />
+        <h2>Chocolate Chip</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Um clássico reconfortante, repleto de pedaços de chocolate macio e
+            delicioso. Cada mordida é uma explosão de sabor, onde o contraste
+            entre a massa macia e a textura dos pedaços de chocolate derretido
+            cria uma experiência irresistível para os amantes de sobremesas.
+            Ideal para qualquer ocasião.
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$2,30</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/736x/86/67/8d/86678db198aa86f61fb4d74558b26f9d.jpg"
+          alt="Smoothie de pitaya"
+        />
+        <h2>Dragão Refrescante</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Este smoothie de pitaya é uma explosão de sabor tropical e
+            refrescância. Feito com pitaya fresca, banana, morangos e suco de
+            laranja, é uma mistura cremosa e vibrante que vai encantar o seu
+            paladar. Cada gole é uma experiência refrescante que vai deixar você
+            pronto para enfrentar o dia!
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$7,55</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+      <div class="buy">
+        <img
+          src="https://i.pinimg.com/564x/99/75/02/9975025dd55066e2cd16d9a1acf134de.jpg"
+          alt="BOLO"
+        />
+        <h2>Bolo de Cereja</h2>
+        <div class="line"></div>
+
+        <div class="descr">
+          <p>
+            Uma tentadora combinação de massa fofa e suculentas cerejas, este
+            bolo é uma festa para os sentidos, com cada garfada revelando a
+            doçura das frutas maduras e a maciez do bolo, tudo harmonizado em
+            uma delícia irresistível.
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="bd">
+          <p>R$105,85</p>
+          <button class="btn" id="meuBotao">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="eBooks" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+      <div class="line1-box">
+        <h3>Livros</h3>
+        <div class="l1"></div>
+      </div>
+      <div class="box3">
+        <img src="src/livrros.png" alt="livros" class="box3-img" />
+        <div class="livro">
+          <h4>Confeitaria e biblioteca</h4>
+          <p>
+            ‎ Com uma biblioteca inclusa, repleta de livros físicos para folhear
+            à vontade, e um acervo online acessível gratuitamente com a compra
+            de nossos produtos, garantimos que sua estadia seja ainda mais
+            gratificante. Se preferir os confortos modernos dos ebooks, temos
+            você coberto. Basta saborear um de nossos bolos, biscoitos, cupcakes
+            ou desfrutar de um dos nossos refrescantes ou reconfortantes drinks
+            para ter acesso completo à nossa biblioteca virtual.
+          </p>
+          <p>
+            Para acessar os Ebooks clique aqui:
+            <a href="https://aninhaelisa.github.io/eBooks/"
+              ><button class="btn-ebooks">
+                eBooks<img
+                  src="src/logo.png"
+                  alt="dount"
+                  class="btn-img"
+                /></button
+            ></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="funcionarios" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+      <div class="line1-box">
+        <h3>Funcionários</h3>
+        <div class="l1"></div>
+      </div>
+      <div class="box3">
+        <img src="src/equipe.png" alt="livros" class="box3-img" />
+        <div class="livro">
+          <h4>Funcionários</h4>
+          <p>
+            ‎ Nossa equipe é o coração pulsante por trás de cada experiência
+            memorável que você desfruta em nossa confeitaria. Com uma equipe
+            dedicada e apaixonada, estamos empenhados em garantir que cada
+            visita seja repleta de sorrisos e satisfação. Nossas duas talentosas
+            conzinheiras são verdadeiras artistas culinárias, transformando
+            ingredientes simples em obras-primas saborosas. Com habilidade e
+            criatividade, elas preparam cada bolo, biscoito, cupcake e bebida
+            com amor e cuidado, garantindo que cada mordida seja uma explosão de
+            sabor.
+          </p>
+          <p>
+            ‎ A nossa faxineira é a guardiã invisível do conforto e da limpeza,
+            trabalhando incansavelmente nos bastidores para manter nosso espaço
+            impecável e acolhedor. Seu trabalho diligente garante que você possa
+            relaxar e desfrutar de sua estadia sem preocupações.
+          </p>
+          <p>
+            ‎ E não podemos esquecer dos nossos dois garçons, cuja simpatia e
+            profissionalismo garantem que você se sinta em casa desde o momento
+            em que entra pela porta. Atentos às suas necessidades, eles estão
+            sempre prontos para servi-lo com um sorriso caloroso e uma atitude
+            amigável, tornando sua experiência ainda mais especial.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="galeria" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+      <div class="container">
+        <header><h1>Galeria</h1></header>
+        <main class="gallery">
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/d5/f8/4e/d5f84ec80a8ccd63a427c9e9a63ab1f0.jpg"
+              alt="unsplash image"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/0b/fa/3d/0bfa3da7ebb648ad7ab110edb0800546.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/c4/47/bf/c447bf5488393674b323d17b88208894.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/95/bd/8c/95bd8c576499b7a3102be77da0bd7e7f.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/fa/fa/2c/fafa2cbdb7b912962ef56713ae06fce0.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/736x/40/11/16/4011169f6f0f724bf0d6889ad37c701c.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/5b/59/43/5b59438f6b241405d016ab483d616fbc.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/e8/94/c0/e894c0cf12394b36b9199d9f575981a3.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/9a/88/8f/9a888fea502a084786ace56af5217c18.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/91/35/fe/9135fe7554c5d37d737ea80ecde9a3c5.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/53/5f/36/535f36b4f80b232cb2cac8a67f75ef8c.jpg"
+              alt="galeria"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/e2/a4/43/e2a44323de37da3ce0d9d2ce1f09f6d1.jpg"
+              alt="galeria"
+            />
+          </figure>
+        </main>
+        <footer>
+          <small>2024&copy;AninhaElisa</small>
+        </footer>
+      </div>
+    </div>
+    <div class="content" id="about" style="background-color: #ffc0cb">
+      <div class="height-nav"></div>
+      <div class="box4">
+        <img src="src/cupcake.png" alt="cupcake" />
+        <h4>Endereço:</h4>
+        <p>Doce Encanto na Paulista - Confeitaria e Biblioteca</p>
+        <p>Avenida Paulista, 1234</p>
+        <p>Bela Vista, São Paulo - SP</p>
+        <p>CEP: 01310-100</p>
+        <div class="redes">
+          <button class="btn-box4">
+            <img src="src/instagram.png" alt="instagram" class="img-box4" />
+            Instagram
+          </button>
+          <button class="btn-box4">
+            <img src="src/tik-tok.png" alt="tik-tok"  class="img-box4"/>
+            Tik-Tok
+          </button>
+          <button class="btn-box4">
+            <img src="src/twitter.png" alt="twitter" class="img-box4"/>
+            Twitter
+          </button>
+          <button class="btn-box4">
+            <img src="src/facebook.png" alt="facebook" class="img-box4"/>
+            Facebook
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
